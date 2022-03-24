@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+
+#nullable disable
+
+namespace NorthwndPro.Entities.Orm
+{
+    public partial class VwKazanc
+    {
+        public int ProductId { get; set; }
+        public string ProductName { get; set; }
+        public int? Miktar { get; set; }
+    }
+}
